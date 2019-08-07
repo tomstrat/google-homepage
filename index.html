@@ -8,24 +8,28 @@
     <body>
         <nav>
             <ul id="nav_left">
-                <li><a>About</a></li>
-                <li><a>Store</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Store</a></li>
             </ul>
             <ul id="nav_right">
-                <li><a>Gmail</a></li>
-                <li><a>Images</a></li>
-                <li><a><img src="#"></a></li>
-                <li><a id="sign_in">Sign in</a></li>
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Images</a></li>
+                <li><a href="#" id="nav_img"></a></li>
+                <li><a href="#" id="sign_in">Sign in</a></li>
             </ul>         
         </nav>
         <main>
-            <img src="https://seomofo-da30.kxcdn.com/wp-content/uploads/2010/05/google_logo_new.png">
+            <div>
+                <img src="https://seomofo-da30.kxcdn.com/wp-content/uploads/2010/05/google_logo_new.png">
 
-            <form action="#" method="GET" name="main_search">
-                <input type="text" name="search"><br>
-                <input type="submit" value="google_search">
-                <input type="submit" value="feeling_lucky">
-            </form>
+                <form action="#" method="GET" name="main_search">
+                    <input id="search" type="text" name="search"><br>
+                    <div id="button_holder">
+                        <input class="button" type="submit" value="Google Search">
+                        <input class="button" type="submit" value="I'm Feeling Lucky">
+                    </div>
+                </form>
+            </div>
         </main>
         <footer>
             <div id="location">

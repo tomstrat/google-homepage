@@ -1,8 +1,88 @@
+html, body, nav{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Navigation style*/
+
 ul{
     list-style-type: none;
     display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    vertical-align: middle;
 }
 
 li{
     display: inline-block;
+}
+
+li a{
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#nav_right{
+    float: right;
+}
+
+#nav_img{
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position: -137px -38px;
+    background-size: 528px 68px;
+}
+
+#sign_in{
+    color: white;
+    background-color: #4285f4;
+    margin: 0px 15px 0px 5px;
+    font-weight: 700;
+    width: 100px;
+    padding:7px 10px;
+    border-radius: 2px;
+}
+
+/*main style*/
+
+main{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+main img{
+    margin: 0 auto;
+    width: 30%;
+    display:block;
+}
+
+form, #search{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+#search{
+    height: 40px;
+    border-radius: 50px;
+    border: solid 0.3px rgb(0, 0, 0, 0.2);
+    background-color: white;
+    margin-top: 20px;
+}
+
+#button_holder{
+    width: 41%;
+    margin: 0 auto;
+}
+
+.button{
+    width: 40%;
+    padding: 10px;
+    border: none;
+    background-color:#f5f5f5;
+    color: rgb(0, 0, 0, 0.8);
+    border-radius: 5px;
+    font-size: 14px;
 }
